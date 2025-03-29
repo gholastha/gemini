@@ -88,7 +88,7 @@ Proyek E-Commerce ini adalah implementasi agroteknologi dan digitalisasi sistem 
 
 Status: `[ ] To Do`, `[⏳] In Progress`, `[✅] Done`.
 
-### Iterasi 0: Fondasi & Pengaturan Awal `[✅]` *(Asumsi selesai)*
+### Iterasi 0: Fondasi & Pengaturan Awal `[✅]`
 
 *   **Tujuan:** Menyiapkan lingkungan & struktur proyek dasar.
 *   **Tasks:**
@@ -376,38 +376,7 @@ Status: `[ ] To Do`, `[⏳] In Progress`, `[✅] Done`.
 
 ## Struktur Proyek
 
-project-root/
-├── client/ # Frontend React (Vite)
-│ ├── public/
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ └── ... (components, pages, store, services, hooks, assets)
-│ ├── index.html
-│ ├── package.json
-│ ├── tailwind.config.js
-│ ├── postcss.config.js
-│ └── vite.config.js
-├── server/ # Backend Node.js/Express
-│ ├── prisma/ # Prisma schema, migrations, seed script
-│ │ ├── migrations/
-│ │ ├── schema.prisma
-│ │ └── seed.ts # (Opsional)
-│ ├── src/ # Kode sumber backend
-│ │ ├── config/
-│ │ ├── controllers/
-│ │ ├── middleware/
-│ │ ├── routes/
-│ │ ├── services/ # (Opsional, untuk business logic)
-│ │ ├── utils/
-│ │ └── server.ts # atau index.ts/app.ts
-│ ├── .env.example
-│ ├── package.json
-│ ├── tsconfig.json
-│ └── Dockerfile # Untuk Cloud Run
-├── .gitignore
-├── README.md
-└── ..
+![image](https://github.com/user-attachments/assets/834acffd-2a51-484c-90b8-e9c8cae4c855)
 
 ---
 
